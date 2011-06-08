@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <script type="text/javascript" src="coffee-script.js"></script>
+    <style>
+      .border, canvas {
+        border: solid 1px #cccccc; }
+    </style>
+  </head>
+  <body>
+    <h2>Canvas</h2>
+    <canvas id="canvassample" width="800" height="300"></canvas>
+    <h3>Coffee</h3>
+    <div id="main"></div>
+    <h3>JavaScript</h3>
+    <div id="main-js"></div>
+    <script type="text/javascript">
+      document.getElementById('main-js').innerHTML = 'hello javascript';
+    </script>
+
+    <script type="text/coffeescript" src="main.coffee">
+  </body>
+</html>
